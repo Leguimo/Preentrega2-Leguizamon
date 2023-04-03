@@ -1,0 +1,199 @@
+/*Hoja maestra de estilos*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap');
+
+* {
+    /** margin:0 ;
+    padding:0 ;**/
+    list-style: none;
+    text-decoration: none;
+}
+
+/**TITULOS**/
+h1,
+h2,
+h3,
+h4 {
+    color: rgb(3, 5, 43);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 400;
+    /**margin: 10px;
+    padding: 10px;**/
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+p {
+    color: rgb(124, 132, 148);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.6em;
+    font-weight: 300;
+}
+
+/**BARRA DE NAVEGACION**/
+.botonera {
+    background-color: rgb(3, 4, 43);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+    .botonera a img {
+        width: 25%;
+        justify-content: start;
+    }
+
+    .botonera button {
+        background-color: whitesmoke;
+        border-color: grey;
+        justify-content: end;
+    }
+    
+    .botonera ul {
+        display: flex;
+        list-style: none;
+        justify-content: end;
+    }
+
+        .botonera ul li {
+            margin: 0 1rem;
+            align-items: end;
+        }
+
+            .botonera ul li a {
+                    align-items: end;
+                    color: white;
+            }
+
+/**PIE DE PAGINA**/
+.footer {
+    width: 100%;
+    background-color: rgba(3, 5, 43, 0.8);
+    font-family: 'Roboto', sans-serif;
+}
+
+    .footer h3 {
+    color: whitesmoke;
+    }
+
+.footer ul li {
+    display: flex;
+}
+
+.footer ul li a {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+}
+
+.footer ul li a img {
+    width: 100%;
+    display: inline-block;
+}
+
+.footer ul li h4 {
+    color: whitesmoke;
+    font-weight: 300;
+    display: inline-block;
+}
+
+/**ESTILOS DE TEXTO**/ 
+.text-justify {
+    text-align: justify;
+    padding-left: 5%;
+}
+
+.text-right {
+    text-align: justify;
+    width: 50%;
+    margin-left: 50%;
+}
+
+.text-left {
+    text-align: left;
+    width: 50%;
+}
+
+.text-center {
+    text-align: center;
+    margin: 20px;
+}
+
+.text-blue {
+    color: rgb(3, 4, 43);
+}
+
+.bg-image {
+    background-image: url(../asset/img/backgound/bg-2.jpg);
+    background-repeat: repeat-x;
+}
+
+.bg-azul {
+    background-color: rgba(3, 4, 43, 0.5);
+}
+
+.bg-white {
+    background-image: url(../asset/img/backgound/bg-6.jpg);
+}
+
+.text-blue {
+    color: rgb(3, 4, 43)
+}
+
+.text-white {
+    color: white;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+/**ELEMENTOS MULTIMEDIA**/
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video iframe {
+    align-items: center;
+}
+
+.imagen {
+    width: 25%;
+    display: inline-block;
+}
+
+.img-carousel {
+    width: 100vw;
+    height: 40vw;
+}
+
+/**RESPONSIVE**/
+
+@media (max-width: 600px) {
+ .botonera img {
+    display: none;
+ }   
+ .video iframe{ 
+    width: auto;
+    height: auto;
+ }
+}
