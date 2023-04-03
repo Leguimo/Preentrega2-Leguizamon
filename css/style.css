@@ -185,6 +185,25 @@ p {
     width: 100vw;
     height: 40vw;
 }
+.texto4{
+    align-content: start;
+}
+.texto5{
+    align-content: center;
+}
+.texto6{
+    align-content: center;
+}
+.foto4 {
+   width: 100vw;
+
+}
+.foto5 {
+
+}
+.foto6 {
+
+}
 
 
     /**RESPONSIVE**/
@@ -196,5 +215,18 @@ p {
  .video iframe{ 
     width: auto;
     height: auto;
+ }
+ .nosotros div {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: repeat (6,auto);
+    grid-template-areas: 
+    "texto4"
+    "foto4"
+    "texto5"
+    "foto5"
+    "texto6"
+    "foto6";
+    align-items: center;
  }
 }
