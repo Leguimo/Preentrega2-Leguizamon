@@ -186,7 +186,8 @@ p {
     height: 40vw;
 }
 
-/**RESPONSIVE**/
+
+    /**RESPONSIVE**/
 
 @media (max-width: 600px) {
  .botonera img {
