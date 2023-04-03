@@ -45,6 +45,7 @@ p {
 
 /**BARRA DE NAVEGACION**/
 .botonera {
+    width: 100%;
     background-color: rgb(3, 4, 43);
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -159,7 +160,7 @@ p {
 }
 
 .contenedor {
-    display: flex;
+    display: grid;
     flex-direction: column;
     padding: 10px 20px;
 }
@@ -176,35 +177,37 @@ p {
     align-items: center;
 }
 
-.imagen {
-    width: 25%;
-    display: inline-block;
-}
-
 .img-carousel {
     width: 100vw;
     height: 40vw;
 }
 .texto4{
+    display: grid;
     align-content: start;
+    grid-area: texto4;
 }
 .texto5{
+    display: grid;
     align-content: center;
+    grid-area: texto5;
 }
 .texto6{
+    
     align-content: center;
+    grid-area: texto6;
 }
 .foto4 {
-   width: 100vw;
-
+  display: grid;
+  width: 100%;
 }
 .foto5 {
-
+  display: grid;
+  width: 100%;
 }
 .foto6 {
-
+    display: grid;
+    width: 100%;
 }
-
 
     /**RESPONSIVE**/
 
@@ -217,6 +220,7 @@ p {
     height: auto;
  }
  .nosotros div {
+    width: 100vw;
     display: grid;
     grid-template-columns: 100vw;
     grid-template-rows: repeat (6,auto);
@@ -227,6 +231,5 @@ p {
     "foto5"
     "texto6"
     "foto6";
-    align-items: center;
- }
+}
 }
