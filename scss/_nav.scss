@@ -1,0 +1,41 @@
+.botonera {
+    width: 100%;
+    background-color: $mainColor;
+    font-family: $mainFont;
+}
+
+    .botonera a img {
+        width: 25%;
+        justify-content: $textLeft;
+        @media (width<617px){
+            display: none
+        }
+    }
+
+    .botonera button {
+        background-color: $secondaryColor;
+        border-color: whitesmoke;
+        justify-content: $textRight;
+    }
+
+.botonera ul {
+    display: flex;
+    list-style: none;
+    justify-content: $textCenter;
+}
+
+.botonera ul li {
+    margin: $margin;
+    align-items: $alingEnd;
+}
+
+.botonera ul li a {
+    align-items: $alingEnd;
+    color: $secondaryColor;
+}
+
+.botonera button {
+    background-color: whitesmoke;
+    border-color: grey;
+    justify-content: end;
+}

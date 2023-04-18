@@ -1,0 +1,43 @@
+//Variables globales//
+
+//COLORES//
+$mainColor:rgb(3, 4, 43);
+$secondaryColor: rgb(245, 245, 245);
+$keyColor: rgb(187, 178, 178);
+
+//FUENTES//
+$mainFont: 'Roboto', sans-serif;
+$textSm: 1em;
+$textMd: 1.5em;
+$textLg: 2.4em;
+$textBold: 700;
+$textLight:300;
+$textMainColor: rgb(3, 5, 43);
+$textSecondaryColor: rgb(245, 245, 245);
+$textGris: rgba(112, 111, 111, 0.781);
+
+//ESTILOS DE TEXTO//
+$mainliststyle: none;
+$maintextDecoration: none;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+//ALINEACION //
+$textJustify: justify;
+$textRight: right;
+$textLeft: left;
+$textCenter: center;
+
+//ALINEACION DE OBJETOS //
+$alingEnd: end;
+$alingCenter: center;
+ 
+//MARGENES //
+$margin: 5px;

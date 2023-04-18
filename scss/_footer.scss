@@ -1,0 +1,34 @@
+footer {
+    width: 100%;
+    background-color: $mainColor;
+    font-family: $mainFont;
+}
+
+footer h2 {
+    color: $textSecondaryColor;
+    font-weight: $textLight;
+    }
+
+footer ul li {
+    display: flex;
+}
+
+footer ul li a {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color:$textSecondaryColor;
+    justify-content: space-between;
+}
+
+.footer ul li a img {
+    width: 100%;
+    display: inline-block;
+}
+
+.footer ul li h4 {
+    color: whitesmoke;
+    font-weight: 300;
+    display: inline-block;
+}
+

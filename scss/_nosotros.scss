@@ -1,0 +1,34 @@
+.container-nosotros {
+    margin: $margin;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+
+    .container-foto {
+        max-width:100%;
+        flex-direction: column;
+    }
+    .foto {
+        max-width: 50%;
+       
+    }
+    .text-justify {
+        text-align: justify; 
+    }
+    
+    /*.nosotros div {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: repeat (6,auto);
+        grid-template-areas: 
+        "texto4"
+        "foto4"
+        "texto5"
+        "foto5"
+        "texto6"
+        "foto6";
+    }*/
+}
+

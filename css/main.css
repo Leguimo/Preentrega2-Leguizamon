@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap");
+.botonera {
+  width: 100%;
+  background-color: rgb(3, 4, 43);
+  font-family: "Roboto", sans-serif;
+}
+
+.botonera a img {
+  width: 25%;
+  justify-content: left;
+}
+@media (width < 617px) {
+  .botonera a img {
+    display: none;
+  }
+}
+
+.botonera button {
+  background-color: rgb(245, 245, 245);
+  border-color: whitesmoke;
+  justify-content: right;
+}
+
+.botonera ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.botonera ul li {
+  margin: 5px;
+  align-items: end;
+}
+
+.botonera ul li a {
+  align-items: end;
+  color: rgb(245, 245, 245);
+}
+
+.botonera button {
+  background-color: whitesmoke;
+  border-color: grey;
+  justify-content: end;
+}
+
+h1 {
+  color: rgb(3, 5, 43);
+  font-size: 1.5em;
+}
+
+.contenedor {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 Aspect Ratio (dividir 9 por 16 y multiplicar por 100) */
+  height: 0;
+  overflow: hidden;
+  margin: 5px;
+  list-style: none;
+}
+
+.contenedor p {
+  font-family: "Roboto", sans-serif;
+  color: rgba(112, 111, 111, 0.781);
+  font-size: 1.5em;
+  margin: 5px;
+  text-align: justify;
+  align-items: center;
+}
+@media (width < 571px) {
+  .contenedor p {
+    font-size: 1em;
+  }
+}
+@media (width > 900px) {
+  .contenedor p {
+    font-size: 2.4em;
+  }
+}
+
+.contenedor iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+@media (width > 413px) {
+  .contenedor iframe {
+    width: 100%;
+  }
+}
+
+.titulo {
+  font-family: "Roboto", sans-serif;
+  color: rgb(3, 4, 43);
+  font-size: 2.4em;
+  margin: 5px;
+}
+
+.parrafo {
+  font-family: "Roboto", sans-serif;
+  color: rgba(112, 111, 111, 0.781);
+  font-size: 1.5em;
+  margin: 5px;
+  text-align: justify;
+  align-items: center;
+}
+@media (width < 571px) {
+  .parrafo {
+    font-size: 1em;
+  }
+}
+@media (width > 900px) {
+  .parrafo {
+    font-size: 2.4em;
+  }
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(3, 4, 43);
+  font-family: "Roboto", sans-serif;
+}
+
+footer h2 {
+  color: rgb(245, 245, 245);
+  font-weight: 300;
+}
+
+footer ul li {
+  display: flex;
+}
+
+footer ul li a {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(245, 245, 245);
+  justify-content: space-between;
+}
+
+.footer ul li a img {
+  width: 100%;
+  display: inline-block;
+}
+
+.footer ul li h4 {
+  color: whitesmoke;
+  font-weight: 300;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=main.css.map */

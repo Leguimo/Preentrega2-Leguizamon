@@ -1,0 +1,64 @@
+h1 {
+    color: $textMainColor;
+    font-size: $textMd;
+}
+
+.contenedor {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio (dividir 9 por 16 y multiplicar por 100) */
+    height: 0;
+    overflow: hidden;
+    margin: $margin;
+    list-style: none;
+}
+
+.contenedor p {
+    font-family: $mainFont;
+    color: $textGris;
+    font-size: $textMd;
+    margin: $margin;
+    text-align: $textJustify;
+    align-items: center;
+    @media (width<571px) {
+        font-size:$textSm
+        } 
+    @media (width>900px) {
+font-size: $textLg;
+    }
+}
+
+.contenedor iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: $textCenter;
+
+    @media (width>413px) {
+        width: 100%;
+    }
+}
+
+
+
+.titulo {
+    font-family: $mainFont;
+    color: $mainColor;
+    font-size: $textLg;
+    margin: $margin;
+}
+.parrafo {    font-family: $mainFont;
+    color: $textGris;
+    font-size: $textMd;
+    margin: $margin;
+    text-align: $textJustify;
+    align-items: center;
+    @media (width<571px) {
+        font-size:$textSm
+        } 
+    @media (width>900px) {
+font-size: $textLg;
+    }
+}

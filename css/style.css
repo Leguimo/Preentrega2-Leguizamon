@@ -1,14 +1,14 @@
-/*Hoja maestra de estilos*/
+/*Hoja maestra de estilos*/ /**
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap');
 
 * {
-    /** margin:0 ;
-    padding:0 ;**/
+     margin:0 ;
+    padding:0 
     list-style: none;
-    text-decoration: none;
+    text-decoration: none;/**
 }
 
-/**TITULOS**/
+/**
 h1,
 h2,
 h3,
@@ -27,13 +27,13 @@ h2 {
     font-size: 2em;
     font-weight: 400;
     /**margin: 10px;
-    padding: 10px;**/
+    padding: 10px;*
 }
 
 h3 {
     font-size: 1.5em;
-    font-weight: 400;
-}
+    font-weight: 400;/**/
+
 
 p {
     color: rgb(124, 132, 148);
@@ -44,7 +44,7 @@ p {
 }
 
 /**BARRA DE NAVEGACION**/
-.botonera {
+/*.botonera {
     width: 100%;
     background-color: rgb(3, 4, 43);
     font-family: 'Roboto', sans-serif;
@@ -79,7 +79,7 @@ p {
             }
 
 /**PIE DE PAGINA**/
-.footer {
+/*.footer {
     width: 100%;
     background-color: rgba(3, 5, 43, 0.8);
     font-family: 'Roboto', sans-serif;
@@ -110,7 +110,7 @@ p {
     color: whitesmoke;
     font-weight: 300;
     display: inline-block;
-}
+}*/
 
 /**ESTILOS DE TEXTO**/ 
 .text-justify {
@@ -159,10 +159,10 @@ p {
     color: white;
 }
 
-.contenedor {
+/**.contenedor {
     display: grid;
     flex-direction: column;
-    padding: 10px 20px;
+    padding: 10px 20px;/**
 }
 
 /**ELEMENTOS MULTIMEDIA**/
